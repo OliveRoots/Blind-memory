@@ -138,10 +138,10 @@
 export default {
   name: 'HelloWorld',
   methods: {
-    async downloadAll () {
+   async downloadAll () {
       const link = document.createElement('a')
-      link.href = '/Game Images/Game Images.zip' // path inside public
-      link.download = 'Game Images.zip' // default filename
+      link.href = 'https://oliveroots.github.io/Blind-memory/Game Images/Game Images.zip'
+      link.download = 'Game Images.zip'
       link.click()
     }
   },
